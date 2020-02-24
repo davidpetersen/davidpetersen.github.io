@@ -1,6 +1,21 @@
 <head>
 
-<script>
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>  
+
+
+<section>
+  <div class="container" id="jobs-container">
+    <h1>Open jobs</h1>
+    <div class="jobs-list">
+    </div>
+  </div>
+</section>  
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript">
 // REPLACE "LEVERDEMO" WITH YOUR COMPANY NAME BELOW
 url = 'https://api.lever.co/v0/postings/buildzoom?mode=json'
 
@@ -52,17 +67,3 @@ $.ajax({
 });
 
 </script>
-
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-</head>  
-
-
-<section>
-  <div class="container" id="jobs-container">
-    <h1>Open jobs</h1>
-    <div class="jobs-list">
-    </div>
-  </div>
-</section>  
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
